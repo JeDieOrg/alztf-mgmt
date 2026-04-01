@@ -46,8 +46,6 @@ custom_replacements = {
     dcr_change_tracking_name                = "dcr-change-tracking"
     dcr_defender_sql_name                   = "dcr-defender-sql"
     dcr_vm_insights_name                    = "dcr-vm-insights"
-    amba_resource_group_name                 = "rg-amba-$${starter_location_01}"
-    amba_user_assigned_managed_identity_name = "uami-mgmt-amba-$${starter_location_01}"
   }
 
   /*
