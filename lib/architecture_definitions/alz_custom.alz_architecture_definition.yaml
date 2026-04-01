@@ -55,6 +55,7 @@
   "parent_id": "platform"
 - "archetypes":
   - "identity_custom"
+  - "amba_identity"
   "display_name": "Identity"
   "exists": false
   "id": "identity"
