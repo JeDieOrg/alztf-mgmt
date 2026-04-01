@@ -39,6 +39,7 @@ custom_replacements = {
     management_resource_group_name            = "rg-management-$${starter_location_01}"
     asc_export_resource_group_name            = "rg-asc-export-$${starter_location_01}"
     service_health_alerts_resource_group_name = "rg-service-health-alerts-$${starter_location_01}"
+    amba_resource_group_name                 = "rg-amba-$${starter_location_01}"
 
     # Resource names
     log_analytics_workspace_name            = "law-management-$${starter_location_01}"
