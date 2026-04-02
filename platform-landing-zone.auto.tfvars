@@ -141,19 +141,6 @@ management_group_settings = {
     amba_alz_resource_group_name                   = "$${amba_resource_group_name}"
     amba_alz_user_assigned_managed_identity_name   = "$${amba_user_assigned_managed_identity_name}"
     amba_alz_action_group_email                    = []
-    amba_alz_arm_role_id                           = []
-    amba_alz_resource_group_tags                   = {}
-    amba_alz_byo_user_assigned_managed_identity_id = ""
-    amba_alz_disable_tag_name                      = ""
-    amba_alz_disable_tag_values                    = []
-    amba_alz_webhook_service_uri                   = []
-    amba_alz_event_hub_resource_id                 = []
-    amba_alz_function_resource_id                  = ""
-    amba_alz_function_trigger_url                  = ""
-    amba_alz_logicapp_resource_id                  = ""
-    amba_alz_logicapp_callback_url                 = ""
-    amba_alz_byo_alert_processing_rule             = ""
-    amba_alz_byo_action_group                      = []
     /*
     # Example of allowed locations for Sovereign Landing Zones policies
     allowed_locations = [
