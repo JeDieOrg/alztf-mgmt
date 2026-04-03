@@ -8,12 +8,14 @@
   "parent_id": null
 - "archetypes":
   - "platform_custom"
+  - "amba_platform"
   "display_name": "Platform"
   "exists": false
   "id": "platform"
   "parent_id": "alz-tf"
 - "archetypes":
   - "landing_zones_custom"
+  - "amba_landing_zones"
   "display_name": "Landing Zones"
   "exists": false
   "id": "landingzones"
@@ -44,12 +46,14 @@
   "parent_id": "platform"
 - "archetypes":
   - "management_custom"
+  - "amba_management"
   "display_name": "Management"
   "exists": false
   "id": "management"
   "parent_id": "platform"
 - "archetypes":
   - "connectivity_custom"
+  - "amba_connectivity"
   "display_name": "Connectivity"
   "exists": false
   "id": "connectivity"
