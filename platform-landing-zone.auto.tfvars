@@ -142,7 +142,13 @@ management_group_settings = {
     amba_alz_user_assigned_managed_identity_name = "$${amba_user_assigned_managed_identity_name}"
     amba_alz_action_group_email                  = ["jens.diedrich@googlemail.com"]
     amba_alz_sha_action_group_resources = {
-      actionGroupEmail = ["jens.diedrich@googlemail.com"]
+      actionGroupEmail    = ["jens.diedrich@googlemail.com"]
+      eventHubResourceId  = [""]
+      functionResourceId  = ""
+      functionTriggerUrl  = ""
+      logicappCallbackUrl = ""
+      logicappResourceId  = ""
+      webhookServiceUri   = [""]
     }
     /*
     # Example of allowed locations for Sovereign Landing Zones policies
