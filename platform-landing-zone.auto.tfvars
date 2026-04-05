@@ -140,6 +140,10 @@ management_group_settings = {
     amba_alz_resource_group_location             = "$${starter_location_01}"
     amba_alz_resource_group_name                 = "$${amba_resource_group_name}"
     amba_alz_user_assigned_managed_identity_name = "$${amba_user_assigned_managed_identity_name}"
+    amba_alz_action_group_email                  = []
+    amba_alz_sha_action_group_resources = {
+      actionGroupEmail = ""
+    }
     /*
     # Example of allowed locations for Sovereign Landing Zones policies
     allowed_locations = [
