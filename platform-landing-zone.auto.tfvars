@@ -199,21 +199,21 @@ management_group_settings = {
     connectivity = {
       policy_assignments = {
         Enable-DDoS-VNET = {
-          creation_enabled = false
+          enforcement_mode = "DoNotEnforce"
         }
       }
     }
     landingzones = {
       policy_assignments = {
         Enable-DDoS-VNET = {
-          creation_enabled = false
+          enforcement_mode = "DoNotEnforce"
         }
       }
     }
     corp = {
       policy_assignments = {
         Deploy-Private-DNS-Zones = {
-          creation_enabled = false
+          enforcement_mode = "DoNotEnforce"
         }
       }
     }
