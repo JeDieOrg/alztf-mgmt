@@ -136,20 +136,20 @@ management_group_settings = {
     resource_group_name_mdfc                     = "$${asc_export_resource_group_name}"
     resource_group_location                      = "$${starter_location_01}"
     email_security_contact                       = "$${defender_email_security_contact}"
-    amba_alz_management_subscription_id          = "$${subscription_id_management}"
-    amba_alz_resource_group_location             = "$${starter_location_01}"
-    amba_alz_resource_group_name                 = "$${amba_resource_group_name}"
-    amba_alz_user_assigned_managed_identity_name = "$${amba_user_assigned_managed_identity_name}"
-    amba_alz_action_group_email                  = ["jens.diedrich@googlemail.com"]
-    amba_alz_sha_action_group_resources = {
-      actionGroupEmail    = ["jens.diedrich@googlemail.com"]
-      eventHubResourceId  = []
-      functionResourceId  = ""
-      functionTriggerUrl  = ""
-      logicappCallbackUrl = ""
-      logicappResourceId  = ""
-      webhookServiceUri   = []
-    }
+    # amba_alz_management_subscription_id          = "$${subscription_id_management}"
+    # amba_alz_resource_group_location             = "$${starter_location_01}"
+    # amba_alz_resource_group_name                 = "$${amba_resource_group_name}"
+    # amba_alz_user_assigned_managed_identity_name = "$${amba_user_assigned_managed_identity_name}"
+    # amba_alz_action_group_email                  = ["jens.diedrich@googlemail.com"]
+    # amba_alz_sha_action_group_resources = {
+    #   actionGroupEmail    = ["jens.diedrich@googlemail.com"]
+    #   eventHubResourceId  = []
+    #   functionResourceId  = ""
+    #   functionTriggerUrl  = ""
+    #   logicappCallbackUrl = ""
+    #   logicappResourceId  = ""
+    #   webhookServiceUri   = []
+    # }
     /*
     # Example of allowed locations for Sovereign Landing Zones policies
     allowed_locations = [
