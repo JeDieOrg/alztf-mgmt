@@ -33,6 +33,12 @@
   "id": "online"
   "parent_id": "landingzones"
 - "archetypes":
+  - "local_custom"
+  "display_name": "Local"
+  "exists": false
+  "id": "local"
+  "parent_id": "landingzones"
+- "archetypes":
   - "sandbox_custom"
   "display_name": "Sandbox"
   "exists": false
